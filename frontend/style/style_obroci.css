@@ -29,11 +29,20 @@
 }
 
 .slika_dorucak{
+
+    padding: 30px;
     width: 50%;
 }
 
 .dorucak_obroci{
-    padding-top: 200px;
-    text-align: left;
-    width: 30%;
+    padding-top: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+
+.posveta{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    color: rgba(233, 152, 47, 0.993);
 }
