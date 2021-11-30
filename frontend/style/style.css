@@ -71,6 +71,7 @@ header{
 }
 .container{
     align-items:center;
+    
 }
 .navigacija{
 
@@ -80,7 +81,35 @@ footer{
     z-index: 1000000;
     position:absolute;
     bottom:0;
-    height:80px;
-    background-color:red;
+    height:120px;
+    background-color:rgb(46, 46, 46);
+    
     width:100%;
 }
+
+.container_f{
+    position:relative;
+    width:40%;
+    
+    
+    
+}
+.pronadjite p{
+    color:white;
+    position:relative;
+    left:4%;
+}
+.pronadjite{
+
+    width:100%;
+    justify-content: space-between;
+
+}
+
+.pronadjite h1{
+    text-align:center;
+    color:white;
+    margin-top:-2px;
+}
+
+
