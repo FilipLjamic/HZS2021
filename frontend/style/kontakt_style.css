@@ -1,0 +1,45 @@
+div {
+    border: 1px solid;
+}
+body {
+
+    display: grid;
+    grid-template-columns: 10em auto 10em;
+    grid-template-areas: 
+        "header header header"
+        "glavno glavno glavno"
+        "footer footer footer";
+    margin: 0;
+    padding: 0;
+}
+
+.kontakt_box {
+    display: grid;
+    grid-gap: 20px;
+    margin: 50px;
+}
+
+.kontakt_box_element {
+    text-align: left;
+}
+
+.ime {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.mejl {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: blueviolet;
+}
+
+.poruka {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.dugme {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
