@@ -1,5 +1,36 @@
 body{
 
+    display:grid;
+    margin:0;
+    
+}
 
-    color:red;
+
+
+header{
+
+    height:100px;
+
+    background-color:rgb(112, 79, 59);
+
+    
+
+    
+
+    
+
+
+
+}
+
+.banner{
+
+    height:100%;
+    
+    text-align:center;
+    
+    width:20%;
+
+
+
 }
