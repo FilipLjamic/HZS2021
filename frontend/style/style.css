@@ -60,8 +60,7 @@ header{
     color:white;
 }
 
-<<<<<<< HEAD
-}
+
 
 .container{
     display:flex;
@@ -81,8 +80,4 @@ header{
     width:32px;
     height: 32px;
     background-color: rgb(2, 29, 21);
-=======
-.container{
-    align-items:center;
->>>>>>> ceae35a6e7563b13387533b81936430f936f1cd5
 }
