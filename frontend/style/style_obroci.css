@@ -1,0 +1,39 @@
+
+
+
+.levo{
+    width:32px;
+    height: 32px;
+    background-color: aquamarine;
+}
+
+.desno{
+    width:32px;
+    height: 32px;
+    background-color: rgb(2, 29, 21);
+}
+
+.obrok_naslov{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline gray 5px;
+}
+
+.container1{
+    display:flex;
+    align-items: top;
+    justify-content: space-between;
+    width:100%;
+    height: 100vh;
+}
+
+.slika_dorucak{
+    width: 50%;
+}
+
+.dorucak_obroci{
+    padding-top: 200px;
+    text-align: left;
+    width: 30%;
+}
