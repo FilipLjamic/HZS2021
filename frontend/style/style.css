@@ -19,6 +19,24 @@ header{
 
 }
 
+.header_mali1{
+
+    text-align: center;
+
+    padding-top: 18px;
+
+    padding-bottom: 18px;
+
+}
+
+.header_mali1:hover{
+
+    border: 3px solid rgba(233, 240, 141, 0.288);
+
+    border-radius: 15%;
+
+}
+
 .header_mali{
 
     text-align: center;
@@ -32,8 +50,6 @@ header{
 .header_mali:hover{
 
     border: 3px solid rgba(233, 240, 141, 0.288);
-
-    border-radius: 15%;
 
 }
 
