@@ -13,13 +13,27 @@ header{
     display:block;
     background-color:rgb(112, 79, 59);
 
-    
+    padding:0px;
 
     
 
-    
+}
 
+.header_mali{
 
+    text-align: center;
+
+    padding-top: 18px;
+
+    padding-bottom: 18px;
+
+}
+
+.header_mali:hover{
+
+    border: 3px solid rgba(233, 240, 141, 0.288);
+
+    border-radius: 15%;
 
 }
 .inner_header{
