@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 body{
     display:grid;
     margin:0;
@@ -16,7 +18,7 @@ header{
     position: relative;
     width:100%;
     height:80px;
-    background-color:brown;
+    background-color:rgb(63, 63, 63);
 
     justify-content: space-between;
     
@@ -28,6 +30,7 @@ header{
     align-items: center;
     color:white;
     gap:250px;
+    margin-left:15px;
 }
 .flex{
 
@@ -43,13 +46,11 @@ header{
 
     
     font-size:50px;
-
-    
-    
+    font-family: 'Pangolin', cursive
     
 }
 .meni{
-    gap:20px;
+    gap:4em;
     list-style: none;
 
     
@@ -58,8 +59,29 @@ header{
 .meni a{
     text-decoration:none;
     color:white;
+    font-size:20px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 1.2em;
+    margin: -1.2em; 
+    
+
+}
+.meni a:hover{
+
+
+    color:white;
+    transition-duration: 150ms;
+    background-color:rgb(73, 73, 73);
+    
+    
 }
 
 .container{
     align-items:center;
+}
+.navigacija{
+
+    margin-right:300px;
 }
