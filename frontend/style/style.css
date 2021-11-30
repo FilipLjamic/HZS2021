@@ -69,3 +69,18 @@ header{
     
     
 }
+.container{
+    align-items:center;
+}
+.navigacija{
+
+    margin-right:300px;
+}
+footer{
+    z-index: 1000000;
+    position:absolute;
+    bottom:0;
+    height:80px;
+    background-color:red;
+    width:100%;
+}
