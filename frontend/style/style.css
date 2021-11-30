@@ -78,10 +78,33 @@ header{
     
 }
 
+
+
 .container{
     align-items:center;
 }
 .navigacija{
 
     margin-right:300px;
+}
+    
+
+
+.levo{
+    width:32px;
+    height: 32px;
+    background-color: aquamarine;
+}
+
+.desno{
+    width:32px;
+    height: 32px;
+    background-color: rgb(2, 29, 21);
+}
+
+.obrok_naslov{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: underline black;
 }
