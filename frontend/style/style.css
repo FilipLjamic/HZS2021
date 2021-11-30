@@ -1,5 +1,4 @@
 body{
-
     display:grid;
     margin:0;
     
@@ -8,9 +7,10 @@ body{
 
 
 header{
-
-    height:100px;
-
+    
+    height:80px;
+    width:100%;
+    display:block;
     background-color:rgb(112, 79, 59);
 
     
@@ -22,15 +22,9 @@ header{
 
 
 }
-
-.banner{
-
-    height:100%;
-    
-    text-align:center;
-    
-    width:20%;
+.inner_header{
 
 
-
+    width:100px;
 }
+
