@@ -5,23 +5,12 @@ body{
 }
 
 
-.header_mali{
 
-    text-align: center;
 
-    padding-top: 18px;
 
-    padding-bottom: 18px;
 
-}
 
-.header_mali:hover{
 
-    border: 3px solid rgba(233, 240, 141, 0.288);
-
-    border-radius: 15%;
-
-}
 header{
 
     position: relative;
