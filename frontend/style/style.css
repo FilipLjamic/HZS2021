@@ -3,6 +3,9 @@
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    display: grid;
+    position: relative;
+    min-height: 100vh;
 }
 
 header {
@@ -12,12 +15,9 @@ header {
     height:80px;
     background-color:rgb(63, 63, 63);
     justify-content: space-between;
-    
-
 }
 
 .logo {
-
     display:flex;
     align-items: center;
     color:white;

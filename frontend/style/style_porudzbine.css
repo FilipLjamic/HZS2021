@@ -3,6 +3,9 @@
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    display: grid;
+    position: relative;
+    min-height: 100vh;
 }
 
 header {
@@ -120,4 +123,8 @@ header {
 .nova_porudzbina {
     padding: 110px;
     display: none;
+}
+
+.page_content {
+    padding-bottom:50px;
 }

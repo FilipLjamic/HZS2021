@@ -48,6 +48,7 @@
         }
     </script>
 
+
     <div class="page_content">
         <section>
             <div style="grid-area: glavno">
@@ -57,7 +58,7 @@
                             <div class="kontakt">
                                 <h1>Пошаљите нам поруку</h1>
                                 <br>
-                                <form action="PLEJSHOLDER.html">
+                                <form>
                                     <div class="kontakt_box">
                                         <div class="kontakt_box_element ime">
                                             <label for="ime">Име</label><br>
@@ -73,7 +74,8 @@
                                         </div>
                                         <div class="kontakt_box_element dugme">
                                             <center>
-                                                <input type="submit" value="Пошаљите Поруку">
+                                                <button onclick="posalji()">Пошаљите Поруку</button>
+                                                <input type="submit" value="Пошаљите Поруку" onclick="posalji()">
                                             </center>
                                         </div>
                                     </div>
@@ -137,6 +139,14 @@
 
     </footer>
 
+    <script>
+        function posalji() {
+            var i, m, p;
+            i = document.getElementById("ime");
+            console.log(i);
+            document.getElementById("mejl") = i;
+            alert("asdf");
+        }
+    </script>
 </body>
-
 </html>

@@ -3,8 +3,10 @@
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    display: grid;
+    position: relative;
+    min-height: 100vh;
 }
-
 header {
     position: relative;
     width:100%;
@@ -263,4 +265,8 @@ footer {
     margin-left:30px;
     font-size:12px;
     bottom:0;
+}
+
+.page_content {
+    padding-bottom:50px;
 }
