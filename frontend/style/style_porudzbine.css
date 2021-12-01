@@ -12,7 +12,6 @@ header{
     background-color:rgb(63, 63, 63);
     justify-content: space-between;
     
-
 }
 .logo{
 
@@ -103,7 +102,6 @@ header{
     transition-duration: 150ms;
     background-color:rgb(73, 73, 73);
 }
-
   
 .dropdown-content a {
     color: rgb(255, 255, 255);

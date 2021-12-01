@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="images/ikona.png">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/kontakt_style.css">
     <title>Kontakt - Restoran ______</title>
 
@@ -19,19 +18,29 @@
     <header class="container flex">
 
         <div class="logo flex">
-            <img src="images/ikona2.png">
+            <img src="images/ikona2.png" >
             <p>Ресторан Бркопаља</p>
         </div>
-
+        
         <nav class="navigacija">
             <ul class="meni flex">
                 <li><a href="index.html" class="button">Почетна</a></li>
-                <li><a href="">О нама</a></li>
-                <li><a href="jelovnik.html">Јеловник</a></li>
+                <li><a href="porudzbine.html">Поруџбине</a></li>
+                <li>
+                    <button class="dropbtn" onclick="myFunction()" >Јеловник</button>
+                    <div class="dropdown-content" id = "Padajuci" onmouseleave="myFunction2()">
+                        <a href="">Доручак</a>z
+                        <a href="">Ручак</a>
+                        <a href="">Дезерт</a>
+                    </div>
+                </li>
                 <li><a href="kontakt.html">Контакт</a></li>
             </ul>
         </nav>
+
     </header>
+
+
     <div class="page_content">
         <section>
             <div style="grid-area: glavno">
