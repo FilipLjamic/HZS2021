@@ -17,7 +17,7 @@
 
 <body>
 
-    <header class="container flex">
+    <header class="container flex" style = "position:fixed">
 
         <div class="logo flex">
             <img src="images/ikona2.png" >
@@ -29,11 +29,11 @@
                 <li><a href="index.html" class="button">Почетна</a></li>
                 <li><a href="porudzbine.html">Поруџбине</a></li>
                 <li>
-                    <button class="dropbtn" onclick="myFunction()" >Јеловник</button>
+                    <a href = "" class="dropbtn" onmouseover="myFunction()">Јеловник</a>
                     <div class="dropdown-content" id = "Padajuci" onmouseleave="myFunction2()">
-                        <a href="">Доручак</a>
-                        <a href="">Ручак</a>
-                        <a href="">Дезерт</a>
+                        <a href="#Dorucak">Доручак</a>
+                        <a href="#Rucak">Ручак</a>
+                        <a href="#Dezert">Дезерт</a>
                     </div>
                 </li>
                 <li><a href="kontakt.html">Контакт</a></li>
@@ -56,18 +56,18 @@
             document.getElementById("Padajuci").style.display = "none";
         }
     </script>
-    
     <div class="page_content">
-
+        
         <br><br><br><br>
+        <a href = "" name="Dorucak">
+        
 
 
         <section>
             <h1 class="obrok_naslov"> Доручак </h1>
 
             <br><br><br>
-
-            <div class="container1" name="Dorucak">
+            <div class="container1">
                 <div class="slika_dorucak">
                     <img src="images\dorucak2.jpg" style="width: 82%">
                 </div>
@@ -127,8 +127,9 @@
 
         </section>
 
-        <br><br><br><br>
-        <section name="Rucak" name="Rucak">
+        <br><br>
+        <a href = "" name = "Rucak"></a><br><br>
+        <section name="Rucak">
             <h1 class="obrok_naslov"> Ручак </h1>
 
             <br><br><br>
@@ -230,7 +231,9 @@
 
         </section>
 
-        <br><br><br><br>
+        <br><br>
+        <a href = "" name="Dezert"><br><br>
+        
         <section name="Dezert" name="Dezert">
 
             <br><br>
