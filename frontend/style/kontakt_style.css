@@ -239,3 +239,65 @@ header{
     font-size: 30px;
     font-weight: 400;
 }
+
+
+footer{
+    z-index: 1000000;
+    position:absolute;
+    bottom:0px;
+    height:50px;
+    background-color:rgb(46, 46, 46);
+
+    width:100%;
+}
+
+.container_f{
+    position:relative;
+    width:40%;
+    
+    
+    color:white;
+    
+    
+    
+    
+    
+}
+.pronadjite p{
+    color:white;
+    position:relative;
+    left:4%;
+}
+.pronadjite{
+
+    width:30%;
+    justify-content: space-between;
+
+}
+
+.pronadjite h1{
+    text-align:center;
+    color:white;
+    margin-top:-2px;
+}
+.page_content{
+    padding-bottom:50px;
+}
+.autori{
+    width:40%;
+    border-left:2px solid white;
+    
+    color:white;
+    
+}
+.container_fut{
+    justify-content: space-between;
+    align-items:center;
+}
+.copyright{
+    margin-left:30px;
+    
+    font-size:12px;
+    bottom:0;
+    
+}
