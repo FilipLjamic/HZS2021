@@ -132,6 +132,12 @@ header{
 
 .flec {
     display: flex;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+>>>>>>> 386ec1aa79d574764a52ffefc3dd6b86982f87b1
 }
 
 .kontakt {
@@ -220,3 +226,22 @@ header{
     border: 0;
 }
 
+.kontakt h1 {
+    color: rgb(70, 70, 70);
+    font-size: 30px;
+}
+
+.kontakt_box_element label {
+    color: rgb(70, 70, 70);
+}
+
+.informacije div {
+    width: 40vw;
+    text-align: center;
+}
+
+.informacije a {
+    color: darkorange;
+    font-size: 30px;
+    font-weight: 400;
+}
