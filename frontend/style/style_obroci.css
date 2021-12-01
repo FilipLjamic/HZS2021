@@ -75,59 +75,6 @@ header{
     margin-right:300px;
 }
 
-.levo{
-    width:32px;
-    height: 32px;
-    background-color: aquamarine;
-}
-
-.desno{
-    width:32px;
-    height: 32px;
-    background-color: rgb(2, 29, 21);
-}
-
-.obrok_naslov{
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline gray 5px;
-}
-
-.container1{
-    display:flex;
-    align-items: top;
-    justify-content: space-between;
-    width:100%;
-}
-
-.slika_dorucak{
-
-    padding: 30px;
-    width: 50%;
-}
-
-.dorucak_obroci{
-    padding-top: 70px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%;
-}
-
-.posveta{
-    font-size: 15px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
-    color: rgba(233, 152, 47, 0.993);
-}
-
-.cena{
-    color: rgb(175, 112, 18);
-    text-align: right;
-    padding-right: 17px;
-}
-
-
-
 
 .dropbtn {
     background-color: rgb(63, 63, 63);
@@ -139,8 +86,6 @@ header{
     cursor: pointer;
     
 }
-
-
   
 .dropdown-content {
     display: none;
@@ -181,4 +126,45 @@ header{
   
 .dropdown:hover .dropbtn {
     background-color: rgb(212, 175, 175);
+}
+
+
+
+.obrok_naslov{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline gray 5px;
+}
+
+.container1{
+    display:flex;
+    align-items: top;
+    justify-content: space-between;
+    width:100%;
+}
+
+.slika_dorucak{
+
+    padding: 30px;
+    width: 50%;
+}
+
+.dorucak_obroci{
+    padding-top: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+
+.posveta{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    color: rgba(233, 152, 47, 0.993);
+}
+
+.cena{
+    color: rgb(175, 112, 18);
+    text-align: right;
+    padding-right: 17px;
 }
