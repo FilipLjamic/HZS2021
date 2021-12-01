@@ -1,8 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 body{
-    display:grid;
+    
     margin:0;
+    position:relative;
+    min-height:100vh;
+    
+    
     
 }
 header{
@@ -110,6 +114,9 @@ footer{
     text-align:center;
     color:white;
     margin-top:-2px;
+}
+.page_content{
+    margin-bottom:120px;
 }
 
 
