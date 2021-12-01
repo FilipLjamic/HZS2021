@@ -1,0 +1,12 @@
+server:
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/radna-aplikacija
+    username: root
+    password: mysecretpw
+  jpa:
+    hibernate:
+      ddl-auto: update
+
