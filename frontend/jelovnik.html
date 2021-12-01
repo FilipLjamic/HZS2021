@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Restoran ______ . Najbolja klopa u celom Beogradu.">
+    <meta name="keywords" content="restoran, pecenje, hrana,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" type="text/css" href="style/style_obroci.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>Jelovnik</title>
+
+    <link rel="icon" href="images\ikona.png">
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <header class="container flex">
+
+        <div class="logo flex">
+            <img src="images/ikona2.png">
+            <p>Ресторан Бркопаља</p>
+        </div>
+
+        <nav class="navigacija">
+            <ul class="meni flex">
+                <li><a href="index.html" class="button">Почетна</a></li>
+                <li><a href="o_nama.html">О нама</a></li>
+                <li>
+                    <button class="dropbtn" onclick="myFunction()">Јеловник</button>
+                    <div class="dropdown-content" id="Padajuci" onmouseleave="myFunction2()">
+                        <a href="o_nama.html\Dorucak">Доручак</a>
+                        <a href="o_nama.html\Rucak">Ручак</a>
+                        <a href="o_nama.html\Dezert">Дезерт</a>
+                    </div>
+                </li>
+                <li><a href="kontakt.html">Контакт</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="page_content">
+        <script>
+            function myFunction() {
+
+                if (document.getElementById("Padajuci").style.display === "none") {
+                    document.getElementById("Padajuci").style.display = "block";
+                }
+                else {
+                    document.getElementById("Padajuci").style.display = "none";
+                }
+            }
+            function myFunction2() {
+                document.getElementById("Padajuci").style.display = "none";
+            }
+        </script>
+
+        <br><br><br><br>
+
+
+        <section>
+            <h1 class="obrok_naslov"> Доручак </h1>
+
+            <br><br><br>
+
+            <div class="container1" name="Dorucak">
+                <div class="slika_dorucak">
+                    <img src="images\dorucak2.jpg" style="width: 82%">
+                </div>
+                <div class="dorucak_obroci">
+                    <h2 style="font-size: 35px; text-decoration:underline;">Слан доручак</h2>
+                    <p class="posveta"><i> Не служи се после 12h </i></p>
+                    <br>
+                    <div style="text-align: left;"> Ham and eggs </div>
+                    <hr>
+                    <div class="cena"> 290 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Проја </div>
+                    <hr>
+                    <div class="cena"> 150 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Уштипци </div>
+                    <hr>
+                    <div class="cena"> 400 динара </div>
+                    <br><br>
+
+                    <div style="text-align: left;"> Сендвич </div>
+                    <hr>
+                    <div class="cena"> 230 динара </div>
+                </div>
+            </div>
+            <div class="container1">
+                <div class="slika_dorucak">
+                    <img src="images\dorucak.jpg" style="width: 82%">
+                </div>
+                <div class="dorucak_obroci">
+                    <h2 style="font-size: 35px; text-decoration:underline;">Сладак доручак</h2>
+                    <p class="posveta"><i>Доступан целог дана</i></p>
+                    <br>
+                    <div style="text-align: left;"> Кроасани </div>
+                    <hr>
+                    <div class="cena"> 290 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Палачинке </div>
+                    <hr>
+                    <div class="cena"> 250 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Пахуљице са воћем </div>
+                    <hr>
+                    <div class="cena"> 400 динара </div>
+                    <br><br>
+
+                </div>
+            </div>
+
+        </section>
+
+        <br><br><br><br>
+        <section name="Rucak" name="Rucak">
+            <h1 class="obrok_naslov"> Ручак </h1>
+
+            <br><br><br>
+
+            <div class="container1">
+                <div class="slika_dorucak">
+                    <img src="images\rucak_meso.jpg" style="width: 82%">
+                </div>
+                <div class="dorucak_obroci">
+                    <h2 style="font-size: 35px; text-decoration:underline;">Месо</h2>
+                    <p class="posveta"><i> Preporuka kuce </i></p>
+                    <br>
+                    <div style="text-align: left;"> Мешано месо 1kg </div>
+                    <hr>
+                    <div class="cena"> 1600 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Кобасице 400g </div>
+                    <hr>
+                    <div class="cena"> 700 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Карађорђева шницла 350g </div>
+                    <hr>
+                    <div class="cena"> 730 динара </div>
+                    <br><br>
+
+                    <div style="text-align: left;"> Димљени врат 350 g </div>
+                    <hr>
+                    <div class="cena"> 710 динара </div>
+                </div>
+            </div>
+            <div class="container1">
+                <div class="slika_dorucak">
+                    <img src="images\rucak_italijani.jpg" style="width: 82%">
+                </div>
+                <div class="dorucak_obroci">
+                    <h2 style="font-size: 35px; text-decoration:underline;">Италијанска кухиња</h2>
+                    <p class="posveta"><i> Доступан целог дана </i></p>
+                    <br>
+                    <div style="text-align: left;"> Capriccosa 24" / 32" </div>
+                    <hr>
+                    <div class="cena"> 750 / 900 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Porketa 24" / 32" </div>
+                    <hr>
+                    <div class="cena"> 800 / 1050 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Лазање </div>
+                    <hr>
+                    <div class="cena"> 650 динара </div>
+                    <br><br>
+
+                    <div style="text-align: left;"> Шпагете </div>
+                    <hr>
+                    <div class="cena"> 560 динара </div>
+                    <br><br>
+
+                    <div style="text-align: left;"> Паста спанаћ </div>
+                    <hr>
+                    <div class="cena"> 580 динара </div>
+
+
+                </div>
+            </div>
+            <div class="container1">
+                <div class="slika_dorucak">
+                    <img src="images\rucak_vegani.jpg" style="width: 82%">
+                </div>
+                <div class="dorucak_obroci">
+                    <h2 style="font-size: 35px; text-decoration:underline;">Вегански оброци</h2>
+                    <p class="posveta"><i> 100% вегански </i></p>
+                    <br>
+                    <div style="text-align: left;"> Pizza vegetarian 24" / 32" </div>
+                    <hr>
+                    <div class="cena"> 680 / 740 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Цезар салата </div>
+                    <hr>
+                    <div class="cena"> 630 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Паштете од пистаћа (8 комада) </div>
+                    <hr>
+                    <div class="cena"> 530 динара </div>
+                    <br><br>
+
+                </div>
+            </div>
+
+        </section>
+
+        <br><br><br><br>
+        <section name="Dezert" name="Dezert">
+
+            <br><br>
+            <h1 class="obrok_naslov"> Дезерти </h1>
+
+            <br><br><br>
+
+            <div class="container1">
+                <div class="slika_dorucak">
+                    <img src="images\dezert_torta.jpg" style="width: 82%">
+                </div>
+                <div class="dorucak_obroci">
+                    <h2 style="font-size: 35px; text-decoration:underline;">Торте</h2>
+                    <p class="posveta"><i> Парчеe </i></p>
+                    <br>
+                    <div style="text-align: left;"> Чоколадна торта </div>
+                    <hr>
+                    <div class="cena"> 320 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Воћна торта </div>
+                    <hr>
+                    <div class="cena"> 340 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Плазма торта </div>
+                    <hr>
+                    <div class="cena"> 380 динара </div>
+                    <br><br>
+
+                    <div style="text-align: left;"> Марципан торта </div>
+                    <hr>
+                    <div class="cena"> 400 динара </div>
+                </div>
+            </div>
+
+            <br><br><br>
+
+            <div class="container1">
+                <div class="slika_dorucak">
+                    <img src="images\dezert_sitni.jpg" style="width: 82%">
+                </div>
+                <div class="dorucak_obroci">
+                    <h2 style="font-size: 35px; text-decoration:underline;">Ситни колачи</h2>
+                    <p class="posveta"><i> Пун овал </i></p>
+                    <br>
+                    <div style="text-align: left;"> Микс мињони </div>
+                    <hr>
+                    <div class="cena"> 680 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Чоколадни мињони </div>
+                    <hr>
+                    <div class="cena"> 650 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Ликер мињони </div>
+                    <hr>
+                    <div class="cena"> 710 динара </div>
+                    <br><br>
+
+                    <div style="text-align: left;"> Марципан мињони </div>
+                    <hr>
+                    <div class="cena"> 680 динара </div>
+                </div>
+            </div>
+
+            <br><br><br>
+
+            <div class="container1">
+                <div class="slika_dorucak">
+                    <img src="images\dezert_vocna.jpg" style="width: 82%">
+                </div>
+                <div class="dorucak_obroci">
+                    <h2 style="font-size: 35px; text-decoration:underline;">Воћне салате</h2>
+                    <p class="posveta"><i> Домаће </i></p>
+                    <br>
+                    <div style="text-align: left;"> Микс воће </div>
+                    <hr>
+                    <div class="cena"> 560 динара </div>
+
+                    <br><br>
+
+                    <div style="text-align: left;"> Микс црвено воће </div>
+                    <hr>
+                    <div class="cena"> 610 динара </div>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <footer>
+        <div class="container_fut flex">
+        <div class="container_f flex">
+            
+            <div class="pronadjite flex">
+
+                
+                
+                <div class="info2">
+                    <a href="https://www.instagram.com/"><img src="images/fb1.png" width="20px" height="20px"></a>
+                </div>
+                <div class="info3">
+                    <a href="https://sr-rs.facebook.com/"><img src="images/ig.png" width="30px" height="20px"></a>
+                </div>
+                <div class="info4">
+                    <a href="https://www.tiktok.com/"><img src="images/tt1.png" width="20px" height="20px"></a>
+                </div>
+
+                
+            </div>
+
+            <div class="copyright"">
+                Права задржана: Тим Бркопаља
+            </div>
+
+            
+
+        </div>
+        <div class="autori">
+
+            <p style="text-align:center;">Радили: Андреј Братић, Милош Пањевац, Петар Илић, Филип Љамић</p>
+        </div>
+ 
+    </div>
+
+        
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
