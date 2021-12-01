@@ -54,9 +54,9 @@
     </script>
 
     <br><br>
-
+    
     <div class = "container_dugmadi">
-        <div calss = "levi">
+        <div class = "levi">
             <button style = "margin-left: 50px; width:120px; height:50px; font-size: 20px;" onclick = "pokazi()">
                 Porucivanje
             </button>
@@ -70,9 +70,14 @@
 
 
     <div class="poruciti" id = "poruciti">
-        <p>Ime</p>
+        
+        <div class="container_poruciti">
+        <label>Ime:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        
         <input type = "text" id = "Ime">
-        <p>Adresa</p>
+        <br>
+        <br>
+        <label>Adresa:</label>
         <input type = "text" id = "Adresa">
         <form action = "">
             <select class = "opcija" id = "" placeholder = "Izaberi obrok">
@@ -93,12 +98,18 @@
         </form>
     </div>
 
+    </div>
+
     <div class="poruciti" id = "poruciti2">
+        <div class="container_poruciti">
         <form action = "">
+            <label>ID</label>
             <input type = "text">
             <input type = "submit" value = "Unesi" style = "width: 70px; height: 60px;">
         </form>
     </div>
+    </div>
+
     
 
     <footer>
@@ -142,12 +153,12 @@
 
     <script>
         function pokazi(){
-            document.getElementById("poruciti").style.display="block";
-            document.getElementById('poruciti2').style.display='none'
+            document.getElementById("poruciti").style.display="flex";
+            document.getElementById('poruciti2').style.display='none';
         }
         function pokazi2(){
-            document.getElementById('poruciti2').style.display='block'
-            document.getElementById('poruciti').style.display='none'
+            document.getElementById('poruciti2').style.display='flex';
+            document.getElementById('poruciti').style.display='none';
         }
     </script>
 
