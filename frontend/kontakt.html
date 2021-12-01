@@ -74,7 +74,7 @@
                                         </div>
                                         <div class="kontakt_box_element dugme">
                                             <center>
-                                                <button onclick="posalji()">Пошаљите Поруку</button>
+                                                <!--<button onclick="posalji()">Пошаљите Поруку</button><-->
                                                 <input type="submit" value="Пошаљите Поруку" onclick="posalji()">
                                             </center>
                                         </div>
@@ -141,11 +141,17 @@
 
     <script>
         function posalji() {
-            var i, m, p;
-            i = document.getElementById("ime");
-            console.log(i);
-            document.getElementById("mejl") = i;
-            alert("asdf");
+            let i, m, p;
+            i = document.querySelector('ime');
+            m = document.querySelector('mejl');
+            p = document.querySelector('poruka');
+            axios.post('/uraditi', 
+            {
+                ime: i,
+                email: m,
+                poruka: p,
+                status: "u pripremi",
+            })
         }
     </script>
 </body>
