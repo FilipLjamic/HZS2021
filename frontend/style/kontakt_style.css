@@ -1,52 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
-body{
+body {
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header{
-
+header {
     position: relative;
     width:100%;
     height:80px;
     background-color:rgb(63, 63, 63);
     justify-content: space-between;
     padding:0px;
-
 }
-.logo{
-
+.logo {
     display:flex;
     align-items: center;
     color:white;
     gap:250px;
     margin-left:15px;
 }
-.flex{
-
+.flex {
     display:flex;
 }
 
-.logo img{
-
-    
+.logo img {
     height:80px;
 }
-.logo p{
 
-    
-    font-size:50px;
-    font-family: 'Pangolin', cursive
-    
+.logo p {
+    font-size:50px;    
 }
-.meni{
+
+.meni {
     gap:4em;
     list-style: none;
-
-    
-    
 }
-.meni a{
+
+.meni a {
     text-decoration:none;
     color:white;
     font-size:20px;
@@ -55,26 +46,21 @@ header{
     z-index: 1;
     padding: 1.2em;
     margin: -1.2em; 
-    
-
 }
-.meni a:hover{
 
-
+.meni a:hover {
     color:white;
     transition-duration: 150ms;
     background-color:rgb(73, 73, 73);
-    
-    
 }
-.container{
+
+.container {
     align-items:center;
 }
-.navigacija{
 
+.navigacija {
     margin-right:300px;
 }
-
 
 .dropbtn {
     background-color: rgb(63, 63, 63);
@@ -84,7 +70,6 @@ header{
     font-size: 18px;
     border: none;
     cursor: pointer;
-    
 }
   
 .dropdown-content {
@@ -98,13 +83,12 @@ header{
     padding-top: 45px;
 }
 
-.dropbtn:hover{
+.dropbtn:hover {
     color:white;
     transition-duration: 150ms;
     background-color:rgb(73, 73, 73);
 }
 
-  
 .dropdown-content a {
     color: rgb(255, 255, 255);
     padding-top: 30px;
@@ -128,16 +112,11 @@ header{
     background-color: rgb(212, 175, 175);
 }
 
-
-
-.flec {
-    display: flex;
-}
-
 .kontakt {
     padding: 5vh 7vw;
     border: 0;
 }
+
 .kontakt_box {
     grid-template-columns: auto auto;
     display: grid;
@@ -175,10 +154,6 @@ header{
     border: solid rgb(90, 90, 90) 2px;
     transition-duration: 150ms;
 }
-
-/*.kontakt_box_element textarea:focus {
-    border: solid rgb(134, 134, 134) 2px;
-}*/
 
 .ime {
     grid-column: 1;
@@ -240,62 +215,52 @@ header{
     font-weight: 400;
 }
 
-
-footer{
+footer {
     z-index: 1000000;
     position:absolute;
     bottom:0px;
     height:50px;
     background-color:rgb(46, 46, 46);
-
     width:100%;
 }
 
-.container_f{
+.container_f {
     position:relative;
     width:40%;
-    
-    
-    color:white;
-    
-    
-    
-    
-    
+    color:white;  
 }
-.pronadjite p{
+
+.pronadjite p {
     color:white;
     position:relative;
     left:4%;
 }
-.pronadjite{
 
+.pronadjite {
     width:30%;
     justify-content: space-between;
 
 }
 
-.pronadjite h1{
+.pronadjite h1 {
     text-align:center;
     color:white;
     margin-top:-2px;
 }
 
-.autori{
+.autori {
     width:40%;
     border-left:2px solid white;
-    
     color:white;
-    
 }
-.container_fut{
+
+.container_fut {
     justify-content: space-between;
     align-items:center;
 }
-.copyright{
+
+.copyright {
     margin-left:30px;
-    
     font-size:12px;
     bottom:0;
-    
 }
