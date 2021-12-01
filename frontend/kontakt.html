@@ -35,34 +35,46 @@
     <div class="page_content">
         <section>
             <div style="grid-area: glavno">
-                <div class="kontakt">
-                    <h1>Kontaktirajte nas</h1>
-                    <br>
-                    <form action="PLEJSHOLDER.html">
-                        <div class="kontakt_box">
-                            <div class="kontakt_box_element ime">
-                                <label for="ime">Ime:</label><br>
-                                <input type="text" id="ime" name="ime">
+                <table width="100%">
+                    <tr>
+                        <td width="50%">
+                            <div class="kontakt">
+                                <h1>Пошаљите нам поруку</h1>
+                                <br>
+                                <form action="PLEJSHOLDER.html">
+                                    <div class="kontakt_box">
+                                        <div class="kontakt_box_element ime">
+                                            <label for="ime">Име</label><br>
+                                            <input type="text" id="ime" name="ime">
+                                        </div>
+                                        <div class="kontakt_box_element mejl">
+                                            <label for="mejl">Мејл</label><br>
+                                            <input type="text" id="mejl" name="mejl">
+                                        </div>
+                                        <div class="kontakt_box_element poruka">
+                                            <label for="lname">Порука</label><br>
+                                            <textarea name="poruka"></textarea>
+                                        </div>
+                                        <div class="kontakt_box_element dugme">
+                                            <center>
+                                                <input type="submit" value="Пошаљите Поруку">
+                                            </center>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="kontakt_box_element mejl">
-                                <label for="mejl">Mejl:</label><br>
-                                <input type="text" id="mejl" name="mejl">
+                        </td>
+                        <td width="50%" class="informacije">
+                            <div>
+                                <a>Резервације су могуће слањем поруке преко сајта, или позивом на телефон.</a><br><br>
+                                <a>Телефон: 0114321765</a><br><br>
+                                <a>Имејл: brkopalja@gmail.com</a><br><br>
+                                <a>Адреса: Цара Душана 61</a><br><br>
+                                <a>Стари Град</a>
                             </div>
-                            <div class="kontakt_box_element poruka">
-                                <label for="lname">Poruka:</label><br>
-                                <textarea name="poruka"></textarea>
-                            </div>
-                            <div class="kontakt_box_element dugme">
-                                <center>
-                                    <input type="submit" value="Posaljite Poruku">
-                                </center>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="tekst">
-                    <a>alsdfjl;asdf</a>
-                </div>
+                        </td>
+                    </tr>
+                </table>  
             </div>
             <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBxV2pyn5HyyIfd8328EsWBNzC84s9p5Z8
                 &q=First+Belgrade+Gymnasium,+High+School" class="mapa">
