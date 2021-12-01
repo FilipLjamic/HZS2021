@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
-body{
+body {
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header{
+header {
 
     position: relative;
     width:100%;
@@ -14,7 +15,8 @@ header{
     
 
 }
-.logo{
+
+.logo {
 
     display:flex;
     align-items: center;
@@ -22,31 +24,25 @@ header{
     gap:250px;
     margin-left:15px;
 }
-.flex{
 
+.flex {
     display:flex;
 }
 
-.logo img{
-
-    
+.logo img {    
     height:80px;
 }
-.logo p{
 
-    
+.logo p {
     font-size:50px;
-    font-family: 'Pangolin', cursive
-    
 }
-.meni{
-    gap:4em;
-    list-style: none;
 
-    
-    
+.meni {
+    gap:4em;
+    list-style: none;    
 }
-.meni a{
+
+.meni a {
     text-decoration:none;
     color:white;
     font-size:20px;
@@ -54,27 +50,22 @@ header{
     position: relative;
     z-index: 1;
     padding: 1.2em;
-    margin: -1.2em; 
-    
-
+    margin: -1.2em;
 }
-.meni a:hover{
 
-
+.meni a:hover {
     color:white;
     transition-duration: 150ms;
     background-color:rgb(73, 73, 73);
-    
-    
 }
-.container{
+
+.container {
     align-items:center;
 }
-.navigacija{
 
+.navigacija {
     margin-right:300px;
 }
-
 
 .dropbtn {
     background-color: rgb(63, 63, 63);
@@ -83,8 +74,7 @@ header{
     position:static;
     font-size: 18px;
     border: none;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
   
 .dropdown-content {
@@ -98,13 +88,12 @@ header{
     padding-top: 45px;
 }
 
-.dropbtn:hover{
+.dropbtn:hover {
     color:white;
     transition-duration: 150ms;
     background-color:rgb(73, 73, 73);
 }
 
-  
 .dropdown-content a {
     color: rgb(255, 255, 255);
     padding-top: 30px;
@@ -127,7 +116,8 @@ header{
 .dropdown:hover .dropbtn {
     background-color: rgb(212, 175, 175);
 }
-footer{
+
+footer {
     z-index: 1000000;
     position:absolute;
     bottom:0px;
@@ -136,54 +126,46 @@ footer{
     width:100%;
 }
 
-.container_f{
+.container_f {
     position:relative;
     width:40%;
-    
-    
-    color:white;
-    
-    
-    
-    
-    
+    color:white; 
 }
-.pronadjite p{
+
+.pronadjite p {
     color:white;
     position:relative;
     left:4%;
 }
-.pronadjite{
 
+.pronadjite {
     width:30%;
     justify-content: space-between;
-
 }
 
-.pronadjite h1{
+.pronadjite h1 {
     text-align:center;
     color:white;
     margin-top:-2px;
 }
-.page_content{
+
+.page_content {
     padding-bottom:50px;
 }
-.autori{
+
+.autori {
     width:40%;
     border-left:2px solid white;
-    
     color:white;
-    
 }
-.container_fut{
+
+.container_fut {
     justify-content: space-between;
     align-items:center;
 }
-.copyright{
+
+.copyright {
     margin-left:30px;
-    
     font-size:12px;
     bottom:0;
-    
 }
-

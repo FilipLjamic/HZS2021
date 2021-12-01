@@ -1,53 +1,43 @@
-<<<<<<< HEAD
-=======
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
-body{
+body {
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header{
-
+header {
     position: relative;
     width:100%;
     height:80px;
     background-color:rgb(63, 63, 63);
     justify-content: space-between;
-    
 }
-.logo{
-
+.logo {
     display:flex;
     align-items: center;
     color:white;
     gap:250px;
     margin-left:15px;
 }
-.flex{
 
+.flex {
     display:flex;
 }
 
-.logo img{
-
-    
+.logo img {    
     height:80px;
 }
-.logo p{
 
-    
-    font-size:50px;
-    font-family: 'Pangolin', cursive
-    
+.logo p {    
+    font-size:50px;  
 }
-.meni{
+
+.meni {
     gap:4em;
     list-style: none;
-
-    
-    
 }
-.meni a{
+
+.meni a {
     text-decoration:none;
     color:white;
     font-size:20px;
@@ -56,26 +46,21 @@ header{
     z-index: 1;
     padding: 1.2em;
     margin: -1.2em; 
-    
-
 }
-.meni a:hover{
 
-
+.meni a:hover {
     color:white;
     transition-duration: 150ms;
     background-color:rgb(73, 73, 73);
-    
-    
-}
-.container{
+} 
+
+.container {
     align-items:center;
 }
-.navigacija{
 
+.navigacija {
     margin-right:300px;
 }
-
 
 .dropbtn {
     background-color: rgb(63, 63, 63);
@@ -85,7 +70,6 @@ header{
     font-size: 18px;
     border: none;
     cursor: pointer;
-    
 }
   
 .dropdown-content {
@@ -99,7 +83,7 @@ header{
     padding-top: 45px;
 }
 
-.dropbtn:hover{
+.dropbtn:hover {
     color:white;
     transition-duration: 150ms;
     background-color:rgb(73, 73, 73);
@@ -128,14 +112,12 @@ header{
     background-color: rgb(212, 175, 175);
 }
 
-
-.podela{
+.podela {
     padding: 130px;
     font-size: 30px;
 }
 
-.nova_porudzbina{
+.nova_porudzbina {
     padding: 110px;
     display: none;
 }
->>>>>>> 46f9f446c517f889a91848952f8035a689a4a5a7
