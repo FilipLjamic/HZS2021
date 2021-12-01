@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Restoran ______ . Najbolja klopa u celom Beogradu.">
+    <meta name="description" content="Restoran Brkopalja . Najbolja klopa u celom Beogradu.">
     <meta name="keywords" content="restoran, pecenje, hrana,">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="images/ikona.png">
     <link rel="stylesheet" type="text/css" href="style/kontakt_style.css">
-    <title>Kontakt - Restoran ______</title>
+    <title>Kontakt - Restoran Brkopalja</title>
 
 </head>
 
@@ -26,7 +26,14 @@
             <ul class="meni flex">
                 <li><a href="index.html" class="button">Почетна</a></li>
                 <li><a href="porudzbine.html">Поруџбине</a></li>
-                <li><a href="jelovnik.html">Јеловник</a></li>
+                <li>
+                    <button class="dropbtn" onclick="myFunction()" >Јеловник</button>
+                    <div class="dropdown-content" id = "Padajuci" onmouseleave="myFunction2()">
+                        <a href="">Доручак</a>
+                        <a href="">Ручак</a>
+                        <a href="">Дезерт</a>
+                    </div>
+                </li>
                 <li><a href="kontakt.html">Контакт</a></li>
             </ul>
         </nav>

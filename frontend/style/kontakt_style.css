@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+
+
+
+=======
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 body{
@@ -133,6 +138,7 @@ header{
 .flec {
     display: flex;
 }
+>>>>>>> 46f9f446c517f889a91848952f8035a689a4a5a7
 
 .kontakt {
     padding: 5vh 7vw;
