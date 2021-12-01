@@ -125,3 +125,60 @@ header{
     text-align: right;
     padding-right: 17px;
 }
+
+
+
+
+.dropbtn {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 0em;
+    position:static;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(63, 63, 63);
+    min-width: 120px;
+    z-index: 99999;
+    padding: 20px;
+    margin-top: 5px;
+    padding-top: 45px;
+}
+
+.dropbtn:hover{
+    color:white;
+    transition-duration: 150ms;
+    background-color:rgb(73, 73, 73);
+}
+
+  
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: rgb(175, 166, 166);
+    color: rgb(15, 9, 9);
+}
+  
+.dropdown:hover .dropdown-content {
+    padding-top: 30px;
+    padding-left: 12px;
+    padding-bottom: 15px;
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: rgb(212, 175, 175);
+}

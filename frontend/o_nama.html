@@ -8,12 +8,17 @@
 
 
     <link rel="stylesheet" type="text/css" href="style/style_obroci.css">
-    <title>O nama</title>
+    <title>Jelovnik</title>
 
     <link rel="icon" href="images\ikona.png">
 
+
+
 </head>
 <body>
+
+    
+
 
     <header class="container flex">
 
@@ -26,20 +31,46 @@
             <ul class="meni flex">
                 <li><a href="" class="button">Почетна</a></li>
                 <li><a href="o_nama.html">О нама</a></li>
-                <li><a href="">Јеловник</a></li>
+                <li>
+                    <button class="dropbtn" onclick="myFunction()" >Јеловник</button>
+                    <div class="dropdown-content" id = "Padajuci" onmouseleave="myFunction2()">
+                        <a href="o_nama.html\Dorucak">Dorucak</a>
+                        <a href="o_nama.html\Rucak">Rucak</a>
+                        <a href="o_nama.html\Dezert">Dezert</a>
+                    </div>
+                </li>
                 <li><a href="kontakt.html">Контакт</a></li>
             </ul>
         </nav>
 
     </header>
 
+    <script>
+        function myFunction(){
+            
+            if(document.getElementById("Padajuci").style.display === "none")
+            {
+                document.getElementById("Padajuci").style.display="block";
+            }
+            else
+            {
+                document.getElementById("Padajuci").style.display="none";
+            }
+        }
+        function myFunction2(){
+            document.getElementById("Padajuci").style.display="none";
+        }
+    </script>
+
     <br><br><br><br>
-    <section name = "Dorucak">
+
+
+    <section>
         <h1 class = "obrok_naslov"> Dorucak </h1>
 
         <br><br><br>
 
-        <div class="container1">
+        <div class="container1" name = "Dorucak">
             <div class="slika_dorucak">
                 <img src = "images\dorucak2.jpg" style = "width: 82%">
             </div>
@@ -100,7 +131,7 @@
     </section>
 
     <br><br><br><br>
-    <section name = "Rucak">
+    <section name = "Rucak" name = "Rucak">
         <h1 class = "obrok_naslov"> Rucak </h1>
 
         <br><br><br>
@@ -203,7 +234,7 @@
     </section>
     
     <br><br><br><br>
-    <section name = "Dezert">
+    <section name = "Dezert" name = "Dezert">
 
         <br><br>
         <h1 class = "obrok_naslov"> Dezerti </h1>
