@@ -31,7 +31,7 @@
                 <li>
                     <button class="dropbtn" onclick="myFunction()" >Јеловник</button>
                     <div class="dropdown-content" id = "Padajuci" onmouseleave="myFunction2()">
-                        <a href="">Доручак</a>z
+                        <a href="">Доручак</a>
                         <a href="">Ручак</a>
                         <a href="">Дезерт</a>
                     </div>
@@ -42,23 +42,22 @@
 
     </header>
 
-    
-    
-    <div class="page_content">
-        <script>
-            function myFunction() {
+    <script>
+        function myFunction() {
 
-                if (document.getElementById("Padajuci").style.display === "none") {
-                    document.getElementById("Padajuci").style.display = "block";
-                }
-                else {
-                    document.getElementById("Padajuci").style.display = "none";
-                }
+            if (document.getElementById("Padajuci").style.display === "none") {
+                document.getElementById("Padajuci").style.display = "block";
             }
-            function myFunction2() {
+            else {
                 document.getElementById("Padajuci").style.display = "none";
             }
-        </script>
+        }
+        function myFunction2() {
+            document.getElementById("Padajuci").style.display = "none";
+        }
+    </script>
+    
+    <div class="page_content">
 
         <br><br><br><br>
 
