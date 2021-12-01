@@ -84,16 +84,21 @@ header{
 footer{
     z-index: 1000000;
     position:absolute;
-    bottom:0;
-    height:120px;
+    bottom:0px;
+    height:50px;
     background-color:rgb(46, 46, 46);
-    
+
     width:100%;
 }
 
 .container_f{
     position:relative;
     width:40%;
+    
+    
+    color:white;
+    
+    
     
     
     
@@ -105,7 +110,7 @@ footer{
 }
 .pronadjite{
 
-    width:100%;
+    width:30%;
     justify-content: space-between;
 
 }
@@ -116,7 +121,24 @@ footer{
     margin-top:-2px;
 }
 .page_content{
-    margin-bottom:120px;
+    padding-bottom:50px;
 }
-
+.autori{
+    width:40%;
+    border-left:2px solid white;
+    
+    color:white;
+    
+}
+.container_fut{
+    justify-content: space-between;
+    align-items:center;
+}
+.copyright{
+    margin-left:30px;
+    
+    font-size:12px;
+    bottom:0;
+    
+}
 
