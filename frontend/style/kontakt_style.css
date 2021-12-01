@@ -132,12 +132,6 @@ header{
 
 .flec {
     display: flex;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
-
-body {
-    font-family: 'Montserrat', sans-serif;
->>>>>>> 386ec1aa79d574764a52ffefc3dd6b86982f87b1
 }
 
 .kontakt {
