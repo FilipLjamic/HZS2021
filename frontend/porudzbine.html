@@ -55,16 +55,50 @@
 
     <br><br>
 
+    <div class = "container_dugmadi">
+        <div calss = "levi">
+            <button style = "margin-left: 50px; width:120px; height:50px; font-size: 20px;" onclick = "pokazi()">
+                Porucivanje
+            </button>
+        </div>
+        <div class = "desni">
+            <button style = "margin-left: 50px; width:120px; height:50px; font-size: 20px;" onclick = "pokazi2()">
+                Pracenje
+            </button>
+        </div>
+    </div>
 
 
-    <button style = "margin-left: 50px; width:120px; height:50px; font-size: 20px;" onclick = "document.getElementById('').style.display=block">
-        Porucivanje
-    </button><br><br>
-    <button style = "margin-left: 50px; width:120px; height:50px; font-size: 20px;" onclick = "document.getElementById('').style.display=block">
-        Pracenje
-    </button><br>
+    <div class="poruciti" id = "poruciti">
+        <p>Ime</p>
+        <input type = "text" id = "Ime">
+        <p>Adresa</p>
+        <input type = "text" id = "Adresa">
+        <form action = "">
+            <select class = "opcija" id = "" placeholder = "Izaberi obrok">
+                <option value = "sendvic">
+                    Sendvic
+                </option>
+                <option value = "torta">
+                    Torta
+                </option>
+                <option>
+                    Luk
+                </option>
+                <option>
+                    Salata
+                </option>
+            </select>
+            <input type = "submit" value = "Unesi" style = "width: 70px; height: 60px;">
+        </form>
+    </div>
 
-    
+    <div class="poruciti" id = "poruciti2">
+        <form action = "">
+            <input type = "text">
+            <input type = "submit" value = "Unesi" style = "width: 70px; height: 60px;">
+        </form>
+    </div>
     
 
     <footer>
@@ -88,7 +122,7 @@
                 
             </div>
 
-            <div class="copyright"">
+            <div class="copyright">
                 Права задржана: Тим Бркопаља
             </div>
 
@@ -106,7 +140,16 @@
 
     </footer>
 
-
+    <script>
+        function pokazi(){
+            document.getElementById("poruciti").style.display="block";
+            document.getElementById('poruciti2').style.display='none'
+        }
+        function pokazi2(){
+            document.getElementById('poruciti2').style.display='block'
+            document.getElementById('poruciti').style.display='none'
+        }
+    </script>
 
 </body>
 </html>
